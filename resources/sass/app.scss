@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	background: url(/img/bg.png) top center;
+	background-size: cover;
+}
+
+nav {
+	&.navbar {
+		border: none !important;
+		box-shadow: none !important;
+		background: transparent !important;
+	}
+}
+
+.navbar-toggler {
+	border: none !important;
+	span {
+		color: #774e9d !important;
+	}
+}
